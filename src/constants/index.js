@@ -242,4 +242,25 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const certificates = [
+  {
+    name: "React - The Complete Guide (incl Hooks, React Router, Redux)",
+    organization: "Udemy",
+    date: "September 2022",
+    link: "https://www.udemy.com/certificate/UC-621a89e4-d6e8-4dd8-b558-ce63010bb4ea/",
+  },
+  {
+    name: "Next.js & React - The Complete Guide (incl. Two Paths!)",
+    organization: "Udemy",
+    date: "September 2022",
+    link: "https://www.udemy.com/certificate/UC-44dca29c-c5e6-447c-b14c-f818ef074cc6/",
+  },
+  {
+    name: "ChatGPT - The Complete Guide to ChatGPT & OpenAI APIs",
+    organization: "Udemy",
+    date: "June 2023",
+    link: "https://www.udemy.com/certificate/UC-2d2abb61-0fde-4975-acce-d85b28756872/",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, certificates };
