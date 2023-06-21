@@ -7,7 +7,7 @@ import { styles } from "../styles";
 import { useEffect, useState } from "react";
 
 const TechMobileSphere = ({ icon }) => (
-  <div className="w-24 h-24 drop-shadow-[0_15px_25px_rgba(255,255,255,0.25)] ">
+  <div className="w-24 h-24 drop-shadow-[0_15px_25px_rgba(255,255,255,0.50)] ">
     <img src={icon} alt="icon" className="w-full h-full object-contain" />
   </div>
 );
