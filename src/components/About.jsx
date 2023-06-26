@@ -46,7 +46,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a self-taught, passionate{" "}
+        I am a self-taught, passionate{" "} {import.meta.env.VITE_EMAILJS_PUBLIC}
         <span className="text-white">Frontend Developer</span> who crafts
         functional, manageable, and beautiful web pages. My journey in the realm
         of coding has been marked by perseverance and a joy for creation, two

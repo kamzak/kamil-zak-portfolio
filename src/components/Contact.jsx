@@ -21,7 +21,6 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  console.log();
   const handleSubmit = (e) => {
     e.preventDefault();
 
