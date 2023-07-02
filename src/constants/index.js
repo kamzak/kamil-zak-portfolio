@@ -22,6 +22,7 @@ import {
   claudius,
   dell,
   joseph,
+  distancemeter,
 } from "../assets";
 
 export const navLinks = [
@@ -189,6 +190,24 @@ const projects = [
     live_demo_link: "https://bazodlew.vercel.app/",
   },
   {
+    name: "Distance Meter - Vue",
+    description:
+      "A simple application to measure the geographical distance between two coordinates. By default, the user's location is set as the first point (after consent to sharing). The second point can be selected by clicking the mouse or typing in the form.",
+    tags: [
+      {
+        name: "vue",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "google-maps-api",
+        color: "green-text-gradient",
+      },
+    ],
+    image: distancemeter,
+    source_code_link: "https://github.com/kamzak/distance-meter",
+    live_demo_link: "https://distance-meter.netlify.app/",
+  },
+  {
     name: "AGH Project",
     description:
       "Web application with a lot of functionalities. CRUD, Chat (with use of websockets), payments, admin panel, user panel, authentication, and many more. By leading frontend of this website, I developed my skills in related technologies and managing a large project.",
@@ -263,4 +282,11 @@ const certificates = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, certificates };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  certificates,
+};

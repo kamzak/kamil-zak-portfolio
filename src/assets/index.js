@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import bazodlew from "./bazodlew.png";
 import wip from "./wip.jpg";
 import conf from "./conf.png";
+import distancemeter from "./distance-meter.png";
 
 import claudius from "./authors/claudius.png";
 import dell from "./authors/dell.jpg";
@@ -66,4 +67,5 @@ export {
   dell,
   joseph,
   website,
+  distancemeter
 };
