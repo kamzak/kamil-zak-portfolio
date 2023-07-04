@@ -12,7 +12,7 @@ const CertCard = ({ cert, index }) => (
       scale: 1,
       speed: 450,
     }}
-    className=" sm:w-[360px] w-full"
+    className="sm:w-[360px] w-full"
   >
     <motion.div
       variants={fadeIn("left", "spring", index * 0.5, 0.75)}

@@ -7,14 +7,17 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ project, index }) => (
-  <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-    <Tilt
-      options={{
-        max: 30,
-        scale: 1,
-        speed: 300,
-      }}
-      className="bg-tertiary p-5 rounded-md sm:w-[360px] w-full"
+  <Tilt
+    options={{
+      max: 30,
+      scale: 1,
+      speed: 300,
+    }}
+    className="sm:w-[360px] w-full"
+  >
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className="bg-tertiary p-5 rounded-md"
     >
       <div className="relative w-full h-[230px]">
         <img
@@ -64,8 +67,8 @@ const ProjectCard = ({ project, index }) => (
           </p>
         ))}
       </div>
-    </Tilt>
-  </motion.div>
+    </motion.div>
+  </Tilt>
 );
 
 const Works = () => {
@@ -88,10 +91,13 @@ const Works = () => {
           high-quality results.
         </motion.p>
       </div>
-
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
-          <ProjectCard key={`project ${index}`} project={project} />
+          <ProjectCard
+            key={`project-${index}`}
+            project={project}
+            index={index}
+          />
         ))}
       </div>
     </>
