@@ -170,7 +170,7 @@ const projects = [
   {
     name: "BazOdlew",
     description:
-      "BazOdlew is a database system for archiving metallographic research  in foundry. This page will be used as my master thesis. By creating this website, I developed my skills in React, React Hooks, JavaScript, CSS3, HTML5, Firebase, styled components, REST API.",
+      "BazOdlew is a database system for archiving metallographic research  in foundry. This page was used as my master thesis. By creating this website, I developed my skills in React, React Hooks, JavaScript, CSS3, HTML5, Firebase, styled components, REST API.",
     tags: [
       {
         name: "react",
