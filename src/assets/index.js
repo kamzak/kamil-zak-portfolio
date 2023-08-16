@@ -26,10 +26,11 @@ import shopify from "./company/shopify.png";
 import odlewnie from "./company/odlewnie.jpg";
 import tesla from "./company/tesla.png";
 
-import bazodlew from "./bazodlew.png";
-import wip from "./wip.jpg";
-import conf from "./conf.png";
-import distancemeter from "./distance-meter.png";
+import bazodlew from "./projects/bazodlew.png";
+import wip from "./projects/wip.jpg";
+import conf from "./projects/conf.png";
+import distancemeter from "./projects/distance-meter.png";
+import nodejsblog from "./projects/nodejsblog.png";
 
 import claudius from "./authors/claudius.png";
 import dell from "./authors/dell.jpg";
@@ -67,5 +68,6 @@ export {
   dell,
   joseph,
   website,
-  distancemeter
+  distancemeter,
+  nodejsblog,
 };

@@ -37,7 +37,7 @@ const Contact = () => {
           to_email: "kamilzak366@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_EMAILJS_PUBLIC,
+        import.meta.env.VITE_EMAILJS_PUBLIC
       )
       .then(
         () => {
@@ -56,6 +56,7 @@ const Contact = () => {
         }
       );
   };
+
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10">
       <motion.div
@@ -102,7 +103,7 @@ const Contact = () => {
             />
           </label>
 
-          <button className="bg-[#410b84] hover:bg-[#8929fd] py-3 self-end px-16 w-fit  text-white font-bold shadow-md shadow-primary rounded-xl">
+          <button className="bg-[#410b84] hover:bg-[#8929fd] py-3 self-end px-16 w-fit text-white font-bold shadow-md shadow-primary rounded-xl">
             {loading ? "Sending..." : "Send"}
           </button>
         </form>

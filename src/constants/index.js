@@ -23,6 +23,7 @@ import {
   dell,
   joseph,
   distancemeter,
+  nodejsblog,
 } from "../assets";
 
 export const navLinks = [
@@ -167,6 +168,28 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Simple Blog - Nodejs + React",
+    description:
+      "Simple blog with use of external api. Added filters, sorting, infinite scroll and tests. Technologies used: React, React Query, Redux + Redux Toolkit, Node.js, JEST, RTL.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nodejsblog,
+    source_code_link: "https://github.com/kamzak/nodejs-blog/",
+    live_demo_link: "https://nodejs-blog-eight.vercel.app/",
+  },
   {
     name: "BazOdlew",
     description:
