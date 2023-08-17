@@ -26,11 +26,11 @@ import shopify from "./company/shopify.png";
 import odlewnie from "./company/odlewnie.jpg";
 import tesla from "./company/tesla.png";
 
-import bazodlew from "./projects/bazodlew.png";
-import wip from "./projects/wip.jpg";
-import conf from "./projects/conf.png";
-import distancemeter from "./projects/distance-meter.png";
-import nodejsblog from "./projects/nodejsblog.png";
+import bazodlew from "./projects/bazodlew.webp";
+import wip from "./projects/wip.webp";
+import conf from "./projects/conf.webp";
+import distancemeter from "./projects/distance-meter.webp";
+import nodejsblog from "./projects/nodejsblog.webp";
 
 import claudius from "./authors/claudius.png";
 import dell from "./authors/dell.jpg";
