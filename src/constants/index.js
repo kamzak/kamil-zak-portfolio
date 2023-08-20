@@ -303,6 +303,12 @@ const certificates = [
     date: "June 2023",
     link: "https://www.udemy.com/certificate/UC-2d2abb61-0fde-4975-acce-d85b28756872/",
   },
+  {
+    name: "Understanding TypeScript",
+    organization: "Udemy",
+    date: "August 2023",
+    link: "https://www.udemy.com/certificate/UC-d7614510-bf03-4b5a-b32a-a0ab00a5708b/",
+  },
 ];
 
 export {
