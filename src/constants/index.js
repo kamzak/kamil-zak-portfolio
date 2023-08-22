@@ -14,7 +14,7 @@ import {
   git,
   docker,
   agh,
-  wip,
+  dnd_ts,
   odlewnie,
   bazodlew,
   conf,
@@ -265,22 +265,16 @@ const projects = [
   {
     name: "Drag & drop with Typescript",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Simple drag & drop application with use of Typescript. By creating this website, I developed my skills in TypeScript and all its advantages.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
       {
         name: "typescript",
         color: "green-text-gradient",
       },
-      {
-        name: "sass",
-        color: "pink-text-gradient",
-      },
     ],
-    image: wip,
+    image: dnd_ts,
+    source_code_link: "https://github.com/kamzak/dnd-ts",
+    live_demo_link: "https://dragndrop-ts.vercel.app/",
   },
 ];
 

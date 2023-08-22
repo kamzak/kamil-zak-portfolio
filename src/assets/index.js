@@ -27,7 +27,7 @@ import odlewnie from "./company/odlewnie.jpg";
 import tesla from "./company/tesla.png";
 
 import bazodlew from "./projects/bazodlew.webp";
-import wip from "./projects/wip.webp";
+import dnd_ts from "./projects/dnd-ts.webp";
 import conf from "./projects/conf.webp";
 import distancemeter from "./projects/distance-meter.webp";
 import nodejsblog from "./projects/nodejsblog.webp";
@@ -62,7 +62,7 @@ export {
   odlewnie,
   tesla,
   bazodlew,
-  wip,
+  dnd_ts,
   conf,
   claudius,
   dell,
