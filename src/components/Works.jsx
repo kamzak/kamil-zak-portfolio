@@ -11,9 +11,9 @@ const ProjectCard = ({ project, index, isMobile }) => {
   return (
     <Tilt
       options={{
-        max: 30,
+        max: 15,
         scale: 1,
-        speed: 300,
+        speed: 150,
       }}
       className="sm:w-[360px] w-full"
     >
@@ -33,7 +33,7 @@ const ProjectCard = ({ project, index, isMobile }) => {
         </div>
         <div className="mt-5">
           <h3 className="text-white text-[24px] font-bold">{project.name}</h3>
-          <p className="text-secondary text-[16px] mt-2">
+          <p className="text-secondary text-[16px] mt-2 whitespace-pre-line">
             {project.description}
           </p>
         </div>

@@ -31,6 +31,7 @@ import dnd_ts from "./projects/dnd-ts.webp";
 import conf from "./projects/conf.webp";
 import distancemeter from "./projects/distance-meter.webp";
 import nodejsblog from "./projects/nodejsblog.webp";
+import threads from "./projects/threads.webp";
 
 import claudius from "./authors/claudius.png";
 import dell from "./authors/dell.jpg";
@@ -70,4 +71,5 @@ export {
   website,
   distancemeter,
   nodejsblog,
+  threads
 };
