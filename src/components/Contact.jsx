@@ -42,12 +42,12 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back toy you as soon as possible.");
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
+          alert("Thank you. I will get back to you as soon as possible.");
+	        setForm({
+		        name: "",
+		        email: "",
+		        message: "",
+	        });
         },
         (error) => {
           setLoading(false);
@@ -65,6 +65,13 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        
+        <p className="text-gray-300 mt-8">
+          Fill out the form or contact me directly at{" "}
+          <span className="blue-text-gradient">
+            <a href="mailto:kamilzak366@gmail.com">kamilzak366@gmail.com</a>
+          </span>
+        </p>
 
         <form
           ref={formRef}
@@ -77,7 +84,7 @@ const Contact = () => {
               type="text"
               name="name"
               onChange={handleChange}
-              className="bg-black-200 py-4 px-6 placeholder:text-secondary rounded-lg text-white  border-none font-medium"
+              className="bg-black-200 py-4 px-6 placeholder:text-secondary rounded-lg text-white border-gray-500 border font-medium"
               placeholder="What's your name?"
             />
           </label>
@@ -87,7 +94,7 @@ const Contact = () => {
               type="email"
               name="email"
               onChange={handleChange}
-              className="bg-black-200 py-4 px-6 placeholder:text-secondary rounded-lg text-white border-none font-medium"
+              className="bg-black-200 py-4 px-6 placeholder:text-secondary rounded-lg text-white border-gray-500 border font-medium"
               placeholder="What's your email?"
             />
           </label>
@@ -99,7 +106,7 @@ const Contact = () => {
               value={form.message}
               placeholder="What do you want to say?"
               onChange={handleChange}
-              className="bg-black-200 py-4 px-6 placeholder:text-secondary rounded-lg text-white border-none font-medium"
+              className="bg-black-200 py-4 px-6 placeholder:text-secondary rounded-lg text-white border-gray-500 border font-medium"
             />
           </label>
 

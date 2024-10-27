@@ -35,7 +35,7 @@ const ExperienceCard = ({ experience, index }) => (
       >
         {experience.company_name}
       </p>
-      {index === 1 || index === 2 ? (
+      {index === 2 || index === 3 ? (
         <p
           className="text-secondary text-right"
           style={{ fontSize: "14px" }}

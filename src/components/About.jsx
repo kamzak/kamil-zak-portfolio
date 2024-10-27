@@ -72,7 +72,7 @@ const About = () => {
         </span>
         <br /> <br />
         Currently, I am deepening my knowledge of{" "}
-        <span className="text-white">Typescript</span> and always on the lookout
+        <span className="text-white">Java and Java Spring (also with Boot)</span> and always on the lookout
         for new challenges. I am brimming with ideas and highly motivated to
         further expand my knowledge base. My ultimate professional goal is to
         transition into a{" "}

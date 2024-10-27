@@ -21,6 +21,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import nextjs from "./tech/nextjs.png";
 
+import pisf from "./company/pisf.png";
 import agh from "./company/agh.png";
 import shopify from "./company/shopify.png";
 import odlewnie from "./company/odlewnie.jpg";
@@ -58,6 +59,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  pisf,
   agh,
   shopify,
   odlewnie,

@@ -13,6 +13,7 @@ import {
   nodejs,
   git,
   docker,
+  pisf,
   agh,
   dnd_ts,
   odlewnie,
@@ -26,6 +27,7 @@ import {
   nodejsblog,
   threads
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -115,10 +117,21 @@ const technologies = [
 const experiences = [
   {
     title: "Frontend Developer",
+    company_name: "Polish Film Institute",
+    icon: pisf,
+    iconBg: "#383E56",
+    date: "September 2023 - Present",
+    points: [
+      "As the lead frontend developer in the team, I am responsible for the structure of the main project, which I built from scratch and have been developing to this day.",
+      "I take care to ensure the highest possible code quality and extensibility."
+    ]
+  },
+  {
+    title: "Frontend Developer",
     company_name: "AGH - University of Science and Technology",
     icon: agh,
     iconBg: "#E6DEDD",
-    date: "May 2022 - Present",
+    date: "May 2022 - January 2024",
     points: [
       "Developing and maintaining frontend part of application using React, Next.js and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
